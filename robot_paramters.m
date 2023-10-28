@@ -1,4 +1,6 @@
 clc; clear;
+
+%% Constant parameters, mass, inertia...
 g = 9.81;
 L = [240 800 1050 1175 225 200 235 248]/1000;
 T = 0.1;
@@ -36,4 +38,22 @@ I9 = [0.5 2 2];
 % EE
 m10 = 50;
 I10 = [1 1 1];
+
+%% Motor and gearbox parameters
+Jm = 0.002; % kg*m^2
+Im = 10e-3; % 10 mH
+Rm = 1; % Ohm
+
+KmA = 1; % Nm/A
+Kmb = 1; % Nm/A
+Kmg = 1; % Nm/A
+Kmh = 1; % Nm/A
+Kmi = 1; % Nm/A
+
+nA = 100;
+nB = 100;
+nG = 100;
+nH = 100;
+nI = 100;
+
 
