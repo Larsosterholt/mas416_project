@@ -43,14 +43,15 @@ I10 = [1 1 1];
 Jm = 0.002; % kg*m^2
 Im = 10e-3; % 10 mH
 Rm = 1; % Ohm
+Imax = 16; % A
 
-KmA = 1; % Nm/A
+KmA = 1.5; % Nm/A
 Kmb = 1; % Nm/A
 Kmg = 1; % Nm/A
 Kmh = 1; % Nm/A
 Kmi = 1; % Nm/A
 
-nA = 100;
+nA = 200;
 nB = 100;
 nG = 100;
 nH = 100;
