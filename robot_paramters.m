@@ -46,17 +46,17 @@ Rm = 1; % Ohm
 Imax = 16; % A
 
 KmA = 1.5; % Nm/A
-Kmb_red = 1.5; % Nm/A
-Kmb_green = 1.5; % Nm/A
-Kmg = 1; % Nm/A
-Kmh = 1; % Nm/A
-Kmi = 1; % Nm/A
+Kmb_red = 1; % Nm/A
+Kmb_green = 1.25; % Nm/A
+Kmg = 0.5; % Nm/A
+Kmh = 0.5; % Nm/A
+Kmi = 0.5; % Nm/A
 
-nA = 100;
+nA = 200;
 nB_red = 200;
 nB_green = 200;
-nG = 100;
-nH = 100;
-nI = 100;
+nG = 20;
+nH = 50;
+nI = 20;
 
 
