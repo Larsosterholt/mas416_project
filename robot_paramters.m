@@ -52,7 +52,7 @@ Kmg = 1; % Nm/A
 Kmh = 1; % Nm/A
 Kmi = 1; % Nm/A
 
-nA = 200;
+nA = 100;
 nB_red = 200;
 nB_green = 200;
 nG = 100;
