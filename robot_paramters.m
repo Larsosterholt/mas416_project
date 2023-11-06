@@ -47,7 +47,7 @@ Imax = 16; % A
 
 KmA = 1.5; % Nm/A
 Kmb_red = 1.5; % Nm/A
-Kmb_green = 1.25; % Nm/A
+Kmb_green = 1.5; % Nm/A
 Kmg = 0.5; % Nm/A
 Kmh = 0.5; % Nm/A
 Kmi = 0.5; % Nm/A
